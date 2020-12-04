@@ -1,6 +1,4 @@
-FROM alpine:3.7
-
-MAINTAINER Alexey Kioller <avkioller@gmail.com>
+FROM alpine:3.10
 
 RUN apk add --update --no-cache bash jq curl
 
